@@ -1,2 +1,2 @@
 # electricity_consumption-app-JAVA-SPRINGBOOT
-Application with frontend and backend which uses arraylist instead of database for data storage. Application consists of client, street and device, where each user gets his own device that measures the electricity.
+Application with frontend and backend which uses arraylist instead of database for data storage. Application consists of client, street and device, where each user gets his own device that measures the electricity. There are also custom made filters which can give insight to monthly spenditure, spenditure by year or specific month, app also uses springboot application with thymeleaf for client side.
