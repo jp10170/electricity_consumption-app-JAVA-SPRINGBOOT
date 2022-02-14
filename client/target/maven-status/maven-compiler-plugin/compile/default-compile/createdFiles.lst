@@ -1,0 +1,4 @@
+com\example\model\Device.class
+com\example\client\ClientApplication.class
+com\example\client\deviceController.class
+com\example\model\Client.class

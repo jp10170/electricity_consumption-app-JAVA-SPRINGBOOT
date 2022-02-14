@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<form th:action="@{/addValues}" th:object="${device}" method="post">
+        <h1>Welcome</h1>
+            <p>Device Id: <input type="text" th:field="*{ID}" /></p>
+            <p>Date in m/yyyy format: <input type="text" th:field="*{key}" /></p>
+            <p>Value: <input type="text" th:field="*{value}" /></p>
+        <button type="submit">send to controller</button>
+        </form>
+</body>
+</html>
